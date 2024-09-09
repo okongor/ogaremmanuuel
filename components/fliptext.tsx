@@ -16,7 +16,7 @@ export function FlipText() {
 
   return (
     <div className="text-2xl  md:text-5xl lg:text-6xl mx-auto font-normal text-neutral-600 dark:text-neutral-400   leading-normal truncate">
-      HI, I'm Emmanuel <br />I Design & Build beautiful
+      HI, I&apos;m Emmanuel <br />I Design & Build beautiful
       <br />
       Applications with
       <FlipWords
