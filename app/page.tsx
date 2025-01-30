@@ -10,6 +10,7 @@ import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
+import { SignupFormDemo } from "@/components/contactform";
 
 const Home = () => {
   return (
@@ -19,9 +20,13 @@ const Home = () => {
         <Hero />
         <Grid />
         <RecentProjects />
-        <Clients />
+        <br />
+        <br />
+        <br />
+        <br />
         <Experience />
         <Approach />
+
         <Footer />
       </div>
     </main>

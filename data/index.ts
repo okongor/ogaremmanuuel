@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+
   { name: "Contact", link: "#contact" },
 ];
 
@@ -65,6 +65,15 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Studee.AI",
+    des: "Making Studying Easy and fun for students",
+    img: "/studee.png",
+    iconLists: ["/next.svg", "/re.svg"],
+    link: "#",
+  },
+
+  {
+    id: 2,
     title: "Troka App",
     des: "Providing Technological Solutions to farmers",
     img: "/troka.png",
@@ -72,7 +81,7 @@ export const projects = [
     link: "#",
   },
   {
-    id: 2,
+    id: 3,
     title: "Chumas- E-commerce Site",
     des: "Shop for Foodstufs.",
     img: "/chumas.png",
@@ -80,7 +89,7 @@ export const projects = [
     link: "https://chumas.com/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Neocloud Learning",
     des: "Learn to code for free.",
     img: "/neocloud.png",
@@ -134,7 +143,7 @@ export const workExperience = [
   {
     id: 3,
     title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    desc: "Led the dev of multiple mobile and web applications for clients, from initial concept to deployment on both app stores.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
@@ -144,13 +153,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    href: "",
   },
   {
     id: 2,
     img: "/twit.svg",
+    href: "",
   },
   {
     id: 3,
     img: "/link.svg",
+    href: "",
   },
 ];
