@@ -67,7 +67,7 @@ export const projects = [
     id: 1,
     title: "Studee.AI",
     des: "Making Studying Easy and fun for students",
-    img: "/studee.png",
+    img: "/Studee.png",
     iconLists: ["/next.svg", "/re.svg"],
     link: "#",
   },
