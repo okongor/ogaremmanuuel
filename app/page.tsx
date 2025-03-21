@@ -20,13 +20,6 @@ const Home = () => {
         <Hero />
         <Grid />
         <RecentProjects />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
         <Experience />
         <Approach />
 

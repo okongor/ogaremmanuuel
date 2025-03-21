@@ -23,6 +23,7 @@ const Footer = () => {
           Reach out to me today and let&apos;s discuss how I can help you
           achieve your goals.
         </p>
+        <br />
         <SignupFormDemo />
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">

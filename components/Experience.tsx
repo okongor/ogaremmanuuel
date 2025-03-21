@@ -7,6 +7,8 @@ const Experience = () => {
   return (
     <div className="py-20 w-full">
       <h1 className="heading">
+        <br />
+        <br />
         My <span className="text-purple">work experience</span>
       </h1>
 
@@ -29,7 +31,7 @@ const Experience = () => {
             // remove bg-white dark:bg-slate-900
             className="flex-1 text-black dark:text-white border-neutral-200 dark:border-slate-800"
           >
-            <div className="flex lg:flex-row flex-col lg:items-left p-3 py-6 md:p-5 lg:p-10 gap-2">
+            <div className="flex lg:flex-row flex-col lg:items-left p-3 py-6 md:py-5 lg:py-10 gap-2">
               <img
                 src={card.thumbnail}
                 alt={card.thumbnail}

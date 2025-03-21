@@ -19,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I can work remotely no matter where  in the world you are",
+    title: "I can work remotely, it doesn't matter where  in the world you are",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -128,24 +128,17 @@ export const testimonials = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
+    title: "Frontend Engineer (2024-Present)",
     desc: "Neocloud Technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev",
+    title: "Mobile App Developer (2020-2023)",
     desc: "Robin Technologies",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of multiple mobile and web applications for clients, from initial concept to deployment on both app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
   },
 ];
 
