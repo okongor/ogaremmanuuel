@@ -18,10 +18,12 @@ export function FlipText() {
       HI👋, I&apos;m Emmanuel <br />I Design & Build Beautiful
       <br />
       Applications with <br />
-      <FlipWords
-        words={words}
-        className="text-3xl lg:text-7xl md:text-6xl sm:text-4xl"
-      />
+      <div className="mt-8 -ml-2">
+        <FlipWords
+          words={words}
+          className="text-3xl lg:text-7xl md:text-6xl sm:text-4xl"
+        />
+      </div>
     </div>
   );
 }
